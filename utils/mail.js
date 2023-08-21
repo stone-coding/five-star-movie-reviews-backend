@@ -42,7 +42,7 @@ exports.sendEmail = async (name, email, subject, htmlContent) => {
     name: "Five Star Movie Review Platform",
     email: process.env.OFFICIAL_EMAIL,
   };
-  sendSmtpEmail.tp=[{email,name}];
+  sendSmtpEmail.to=[{email,name}];
 
   return await apiInstance.sendTransacEmail(sendSmtpEmail);
 };
