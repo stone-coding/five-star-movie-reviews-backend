@@ -4,7 +4,7 @@
   "description": "This is the project created for educational purpose",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Full Stack Niraj",
   "license": "ISC",
@@ -24,5 +24,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm":"8.x"
   }
 }
